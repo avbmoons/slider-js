@@ -1,0 +1,75 @@
+$width-site: 700px;
+$height-block: 95vh;
+$width-slide: 612px;
+$height-slide:448px;
+$height-site: 700px;
+
+main{
+    margin: 0 auto;
+    padding: 0;
+    width: $width-site;
+    min-height: $height-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #cccaca;
+    .slide-box{
+        margin: 0 auto;
+        width: $width-site;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-sizing: border-box;
+        .slide{
+            margin: 0 auto;
+            width: $width-slide;
+            height: $height-slide;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            .images{
+                margin: 0 auto;
+                padding: 0;
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+            }
+            .buttons{
+                position: absolute;
+                top: 40%;
+                left: 0;
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                .btt{
+                    width: 10%;
+                    height: auto;
+                    text-align: center;
+                    background: none;
+                    border: none;
+                    font-size: 72px;
+                    color: grey;
+                }
+                .btt:hover{
+                    color: orange;
+                }
+            }
+        }
+       
+    }
+    .point-box{
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        .point{
+            margin: 0 auto;
+            font-size: 18px;
+            font-weight: 500;
+            color: orangered;
+        }
+    } 
+}

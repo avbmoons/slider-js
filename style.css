@@ -1,0 +1,68 @@
+main {
+  margin: 0 auto;
+  padding: 0;
+  width: 700px;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #cccaca;
+}
+main .slide-box {
+  margin: 0 auto;
+  width: 700px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+main .slide-box .slide {
+  margin: 0 auto;
+  width: 612px;
+  height: 448px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+main .slide-box .slide .images {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+main .slide-box .slide .buttons {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .slide-box .slide .buttons .btt {
+  width: 10%;
+  height: auto;
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 72px;
+  color: grey;
+}
+main .slide-box .slide .buttons .btt:hover {
+  color: orange;
+}
+main .point-box {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+main .point-box .point {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: orangered;
+}/*# sourceMappingURL=style.css.map */
